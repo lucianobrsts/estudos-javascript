@@ -7,4 +7,9 @@ console.log(firstName);
 console.log(lastName);
 
 let corCarro = 'vermelha';
-console.log(corCarro)
+console.log(corCarro);
+
+const price = 30;
+// price = 20;
+console.log(price);
+
