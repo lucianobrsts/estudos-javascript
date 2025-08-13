@@ -54,3 +54,12 @@ function saleStatus(status, total) {
 
 // chamda da função
 saleStatus('Approved', 30)
+
+console.log('------------------------------')
+console.log('Trabalhando com Functions 2')
+
+function percentage10(price) {
+    return price - (price * 10 / 100)
+}
+
+console.log(percentage10(20))
