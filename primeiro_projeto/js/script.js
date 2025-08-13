@@ -45,3 +45,12 @@ let friends = ['Marcos', 'Silvia', 'Elisa']
 friends[2] = 'Junior'
 console.log(friends)
 console.log(friends[2])
+console.log('------------------------------')
+
+console.log('Trabalhando com Functions')
+function saleStatus(status, total) {
+    console.log('Transaction ' + status + '! Total amount: $' + total)
+}
+
+// chamda da função
+saleStatus('Approved', 30)
