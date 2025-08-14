@@ -76,3 +76,11 @@ console.log('Total da multiplicação é: ' + (num1 * num2))
 console.log('Total da divisão é: ' + (num1 / num2))
 console.log('O resto da divisão é: ' + (num1 % num2))
 console.log('O resultado do exponencial é: ' + (num1 ** num2))
+
+console.log('Operadores de atribuição')
+
+let num11 = 3
+
+// num11 = num11 + 20
+num11 *= 20
+console.log(num11)
