@@ -63,3 +63,16 @@ function percentage10(price) {
 }
 
 console.log(percentage10(20))
+console.log('------------------------------')
+
+console.log('Trabalhando com operações matemáticas')
+
+let num1 = 3
+let num2 = 2
+
+console.log('Total da soma é: ' + (num1 + num2))
+console.log('Total da subtração é: ' + (num1 - num2))
+console.log('Total da multiplicação é: ' + (num1 * num2))
+console.log('Total da divisão é: ' + (num1 / num2))
+console.log('O resto da divisão é: ' + (num1 % num2))
+console.log('O resultado do exponencial é: ' + (num1 ** num2))
