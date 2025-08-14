@@ -84,3 +84,5 @@ let num11 = 3
 // num11 = num11 + 20
 num11 *= 20
 console.log(num11)
+
+console.log('Operadores de atribuição')
