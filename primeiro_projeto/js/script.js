@@ -84,23 +84,3 @@ let num11 = 3
 // num11 = num11 + 20
 num11 *= 20
 console.log(num11)
-
-console.log('Operadores de comparação')
-
-let num22 = 3
-let nomeString = 'Luciano'
-
-console.log(num22 > 0)
-console.log(num22 < 0)
-console.log(num22 >= 3)
-console.log(num22 <= 3)
-console.log(num22 === 3)
-console.log(num22 !== 3)
-console.log(nomeString !== 'Luciano')
-console.log(nomeString === 'Luciano')
-
-if(num22 > 0) {
-    console.log('Verdade')
-} else {
-    console.log('Falso')
-}
