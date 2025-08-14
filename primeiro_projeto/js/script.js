@@ -85,4 +85,32 @@ let num11 = 3
 num11 *= 20
 console.log(num11)
 
-console.log('Operadores de atribuição')
+console.log('Operadores de comparação')
+
+let num22 = 3
+let nomeString = 'Luciano'
+
+console.log(num22 > 0)
+console.log(num22 < 0)
+console.log(num22 >= 3)
+console.log(num22 <= 3)
+console.log(num22 === 3)
+console.log(num22 !== 3)
+console.log(nomeString !== 'Luciano')
+console.log(nomeString === 'Luciano')
+
+if(num22 > 0) {
+    console.log('Verdade')
+} else {
+    console.log('Falso')
+}
+
+console.log('Operadores de comparação 2')
+
+let num111 = '1'
+let num222 = 1
+
+// Strict => avalia tipo e valor
+console.log(num111 === num222)
+// Lose => avalia somente valor
+console.log(num111 == num222)
