@@ -120,3 +120,15 @@ console.log('Operadores Ternários')
 let driver = 90
 let speed = driver > 110 ? 'Above' : 'Below'
 console.log(speed)
+
+console.log('Operadores lógicos')
+let temIdadeMinima = true
+let temTituloDeEleitor = false
+let podeVotarUsandoE = temIdadeMinima && temTituloDeEleitor
+let podeVotarUsandoOU = temIdadeMinima || temTituloDeEleitor
+let podeViajarE = !podeVotarUsandoE
+let podeViajarOU = !podeVotarUsandoOU
+console.log('Usando o &&: ' + podeVotarUsandoE)
+console.log('Usando o ||: ' + podeVotarUsandoOU)
+console.log('Usando o !: ' + podeViajarE)
+console.log('Usando o !: ' + podeViajarOU)
