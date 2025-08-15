@@ -132,3 +132,9 @@ console.log('Usando o &&: ' + podeVotarUsandoE)
 console.log('Usando o ||: ' + podeVotarUsandoOU)
 console.log('Usando o !: ' + podeViajarE)
 console.log('Usando o !: ' + podeViajarOU)
+
+console.log('Operadores lógicos com Strings')
+let corCliente = 'White'
+let corEstoque = 'Black'
+let corVendida = corCliente || corEstoque
+console.log(corVendida)
