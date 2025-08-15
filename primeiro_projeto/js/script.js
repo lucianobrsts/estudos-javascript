@@ -114,3 +114,9 @@ let num222 = 1
 console.log(num111 === num222)
 // Lose => avalia somente valor
 console.log(num111 == num222)
+
+console.log('Operadores Ternários')
+
+let driver = 90
+let speed = driver > 110 ? 'Above' : 'Below'
+console.log(speed)
