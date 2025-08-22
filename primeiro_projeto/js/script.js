@@ -140,12 +140,29 @@ let corVendida = corCliente || corEstoque
 console.log(corVendida)
 
 console.log('If e Else')
-let driverSpeed = 80
+let driverSpeed = 110
 
 if(driverSpeed > 110) {
     console.log('Resultado: Driving too fast')
-} else if(driverSpeed > 40 && driverSpeed < 110 ) {
+} else if(driverSpeed > 40 && driverSpeed <= 110 ) {
     console.log('Resultado: OK')
 } else {
     console.log('Resultado: Driver speed slow')
+}
+
+console.log('Switch Case')
+let airport = 'ABC'
+switch (airport) {
+    case 'MCO':
+        console.log('Orlando')
+        break
+    case 'JFK':
+        console.log('JOohn F. Kennedy')
+        break
+    case 'SEA':
+        console.log('Seattle')
+        break
+    default:
+        console.log('Essa opção é inválida!')
+        break
 }
