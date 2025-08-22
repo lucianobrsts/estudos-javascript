@@ -138,3 +138,14 @@ let corCliente = 'White'
 let corEstoque = 'Black'
 let corVendida = corCliente || corEstoque
 console.log(corVendida)
+
+console.log('If e Else')
+let driverSpeed = 80
+
+if(driverSpeed > 110) {
+    console.log('Resultado: Driving too fast')
+} else if(driverSpeed > 40 && driverSpeed < 110 ) {
+    console.log('Resultado: OK')
+} else {
+    console.log('Resultado: Driver speed slow')
+}
