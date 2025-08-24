@@ -166,3 +166,17 @@ switch (airport) {
         console.log('Essa opção é inválida!')
         break
 }
+
+console.log('For loop')
+console.log('vai iterar de 1 a 10')
+for(i = 1; i <= 10; i++) {
+    console.log('Número: ' + i)
+}
+
+console.log('---------------------')
+console.log('vai iterar de 10 a 20')
+
+for(i = 10; i <=20; i++) {
+    console.log('Número: ' + i)
+}
+
