@@ -188,3 +188,9 @@ while(i <= 10) {
     i++
 }
 
+console.log('---------------------')
+console.log('Do While loop')
+do {
+    console.log('Número: ', i)
+    i++
+} while (i <= 10);
