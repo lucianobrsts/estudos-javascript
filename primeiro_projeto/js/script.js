@@ -206,3 +206,11 @@ const myCar = {
 for(let i in myCar) {
     console.log(i, myCar[i])
 }
+
+console.log('---------------------')
+console.log('For of loop')
+const friends2 = ['Marcos', 'Ana', 'Jose']
+
+for(let i of friends2) {
+    console.log(i)
+}
