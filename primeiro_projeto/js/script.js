@@ -214,3 +214,6 @@ const friends2 = ['Marcos', 'Ana', 'Jose']
 for(let i of friends2) {
     console.log(i)
 }
+
+console.log('---------------------')
+console.log('Adicionando break')
