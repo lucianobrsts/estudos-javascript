@@ -1,0 +1,14 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span {
+    color: purple;
+}
