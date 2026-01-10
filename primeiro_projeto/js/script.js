@@ -222,24 +222,23 @@ let bookTile = 'Atomic Habits'
 let bookAuthor = 'James Clear'
 let bookPages = 306
 
-const book = {
-    bookTile: 'Atomic Habits',
-    bookAuthor: 'James Clear',
-    bookPages: 306,
-    booklChapters: {
-        chap1: 'Fundamentals',
-        chapp2: '1st law'
-    },
-    printBook: function() {
-        console.log('Printing...')
+function createBook (title, author, pages) {
+    const book = {
+        bookTile: title,
+        bookAuthor: author,
+        bookPages: pages,
+        printBook: function() {
+            console.log('Printing...')
+        }
     }
+    return book
 }
 
-// function printBook() {
-//     console.log('Printing...')
-// }
+const book1 = createBook('Atomic', 'James', 306)
+const book2 = createBook('Think', 'Napolean', 450)
 
-book.printBook()
+console.log(book1)
+console.log(book2)
 
 console.log('---------------------')
 console.log('Next class')
