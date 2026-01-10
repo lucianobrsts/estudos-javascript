@@ -216,4 +216,20 @@ for(let i of friends2) {
 }
 
 console.log('---------------------')
-console.log('Adicionando break')
+console.log('Objects In Javascript')
+
+let bookTile = 'Atomic Habits'
+let bookAuthor = 'James Clear'
+let bookPages = 306
+
+const book = {
+    bookTile: 'Atomic Habits',
+    bookAuthor: 'James Clear',
+    bookPages: 306,
+    booklChapters: {
+        chap1: 'Fundamentals',
+        chapp2: '1st law'
+    }
+}
+console.log('Book:')
+console.log(book)
