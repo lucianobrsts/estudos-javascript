@@ -229,7 +229,17 @@ const book = {
     booklChapters: {
         chap1: 'Fundamentals',
         chapp2: '1st law'
+    },
+    printBook: function() {
+        console.log('Printing...')
     }
 }
-console.log('Book:')
-console.log(book)
+
+// function printBook() {
+//     console.log('Printing...')
+// }
+
+book.printBook()
+
+console.log('---------------------')
+console.log('Next class')
