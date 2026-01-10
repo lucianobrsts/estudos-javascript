@@ -240,5 +240,7 @@ const book2 = createBook('Think', 'Napolean', 450)
 console.log(book1)
 console.log(book2)
 
+book1.color = 'White'
+
 console.log('---------------------')
 console.log('Next class')
