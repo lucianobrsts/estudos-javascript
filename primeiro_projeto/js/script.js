@@ -243,4 +243,17 @@ console.log(book2)
 book1.color = 'White'
 
 console.log('---------------------')
+console.log('Trabalhando com construtores')
+
+function CreateBookConstructor (title, author, pages) {
+    this.bookTile = title;
+    this.bookAuthor = author;
+    this.bookPages = pages
+}
+
+const book1Constructor = new CreateBookConstructor('Atomic', 'James', 306)
+
+console.log(book1Constructor)
+
+console.log('---------------------')
 console.log('Next class')
