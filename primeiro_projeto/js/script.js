@@ -267,5 +267,12 @@ console.log(Math.PI)
 console.log('Trunca o valor de PI e mostra o inteiro')
 console.log(Math.trunc(Math.PI))
 
+let message = 'Hey, my name is Luciano'
+
+console.log(message.startsWith('Hey'))
+console.log(message.length)
+console.log(message.includes('luciano'))
+console.log(message.endsWith('Luciano'))
+
 console.log('---------------------')
 console.log('Next class')
