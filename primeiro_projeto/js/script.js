@@ -258,7 +258,14 @@ console.log(book1Constructor)
 console.log('---------------------')
 console.log('Objects Built in')
 
-
+console.log('mostra o maior valor enter 1, 3, 15, 2, 7, 4')
+console.log(Math.max(1, 3, 15, 2, 7, 4))
+console.log('Mostra o menor valor entre 1, 3, 15, 2, 7, 4')
+console.log(Math.min(1, 3, 15, 2, 7, 4))
+console.log('Mostra o valor de PI')
+console.log(Math.PI)
+console.log('Trunca o valor de PI e mostra o inteiro')
+console.log(Math.trunc(Math.PI))
 
 console.log('---------------------')
 console.log('Next class')
