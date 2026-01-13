@@ -275,4 +275,18 @@ console.log(message.includes('luciano'))
 console.log(message.endsWith('Luciano'))
 
 console.log('---------------------')
+console.log('Templates Literals')
+
+let firstNameJoe = 'Joe'
+
+const email = 'Hi ' + firstNameJoe + ', \nThe meeting is confirmed! \nAndre'
+const email2 = `Hi ${firstNameJoe}, 
+The meeting is confirmed! 
+Andre`
+
+console.log(email)
+console.log(email2)
+
+
+console.log('---------------------')
 console.log('Next class')
