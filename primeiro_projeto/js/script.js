@@ -289,4 +289,13 @@ console.log(email2)
 
 
 console.log('---------------------')
+console.log('Arrays')
+
+const friends3 = ['Marcos', 'Ana', 'Marcela']
+const num = [1, 2, 3, 4, 5, 6, 7 , 8, true]
+
+console.log(friends3)
+console.log(num)
+
+console.log('---------------------')
 console.log('Next class')
