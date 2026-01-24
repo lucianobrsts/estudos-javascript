@@ -297,5 +297,8 @@ const num = [1, 2, 3, 4, 5, 6, 7 , 8, true]
 console.log(friends3)
 console.log(num)
 
-console.log('---------------------')
+console.log('----------------------------')
 console.log('Next class')
+
+
+
