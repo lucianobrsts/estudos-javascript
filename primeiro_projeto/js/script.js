@@ -292,10 +292,16 @@ console.log('---------------------')
 console.log('Arrays')
 
 const friends3 = ['Marcos', 'Ana', 'Marcela']
-const num = [1, 2, 3, 4, 5, 6, 7 , 8, true]
+const num = [7, 8, 9,]
+
+num.push(10, 11, 12)
+num.unshift(1, 2, 3)
+num.splice(3, 0, 4, 5, 6)
 
 console.log(friends3)
 console.log(num)
+console.log(num.length)
+console.log()
 
 console.log('----------------------------')
 console.log('Next class')
