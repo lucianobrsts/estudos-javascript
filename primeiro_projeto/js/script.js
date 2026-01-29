@@ -322,6 +322,14 @@ console.log(movies.find(function(movie) {
 
 console.log(movies.find(movie => movie.movieName == 'Dejavu'))
 
+console.log(num)
+// const final = num.pop()
+// const final = num.shift()
+const final = num.splice(2, 5)
+
+console.log(num)
+console.log(final)
+
 console.log('----------------------------')
 console.log('Next class')
 
