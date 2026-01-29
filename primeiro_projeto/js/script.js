@@ -330,6 +330,12 @@ const final = num.splice(2, 5)
 console.log(num)
 console.log(final)
 
+// num = []
+// num.length = 0
+num.splice(0, num.length)
+
+console.log(num)
+
 console.log('----------------------------')
 console.log('Next class')
 
