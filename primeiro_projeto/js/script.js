@@ -301,7 +301,24 @@ num.splice(3, 0, 4, 5, 6)
 console.log(friends3)
 console.log(num)
 console.log(num.length)
-console.log()
+console.log(num.indexOf(15))
+console.log(num.includes(12))
+
+console.log('----------------------------')
+console.log('Movie list')
+
+const movies = [
+    {id: 1, movieName: 'Dejavu'},
+    {id: 2, movieName: 'Back to the Future'},
+    {id: 3, movieName: 'The Matrix'}
+]
+
+console.log(movies)
+console.log(movies.includes({id: 1, movieName: 'Dejavu'}))
+
+console.log(movies.find(function(movie) {
+    return movie.movieName === 'The Matrix'
+}))
 
 console.log('----------------------------')
 console.log('Next class')
