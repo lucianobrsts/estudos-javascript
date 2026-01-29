@@ -320,6 +320,8 @@ console.log(movies.find(function(movie) {
     return movie.movieName === 'The Matrix'
 }))
 
+console.log(movies.find(movie => movie.movieName == 'Dejavu'))
+
 console.log('----------------------------')
 console.log('Next class')
 
