@@ -345,12 +345,18 @@ half = all.slice(3, 5)
 console.log(all)
 console.log(half)
 
-let clients = ['Andrew', 'Jose', 'Marcela']
+let clients = ['Andrew', 'Marcela', 'Jose']
 
 console.log(clients)
 
 let clientsJoin = clients.join('# ')
 console.log(clientsJoin)
+
+clients.sort()
+console.log(clients)
+
+clients.reverse()
+console.log(clients)
 
 console.log('----------------------------')
 console.log('Next class')
