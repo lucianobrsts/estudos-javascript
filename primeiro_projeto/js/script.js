@@ -336,6 +336,15 @@ num.splice(0, num.length)
 
 console.log(num)
 
+let numbers = [1, 2, 3, 4]
+let letters = ['a', 'b', 'c']
+
+all = numbers.concat(letters)
+half = all.slice(3, 5)
+
+console.log(all)
+console.log(half)
+
 console.log('----------------------------')
 console.log('Next class')
 
