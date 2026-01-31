@@ -358,11 +358,19 @@ console.log(clients)
 clients.reverse()
 console.log(clients)
 
-const tempLondon = [18, 13, 8, 2]
+const tempLondon = [18, 13, 8, 2, -1, 0, -3]
 const tempPositive = tempLondon.every(function(value) {
     return value >= 0
 })
 console.log(tempPositive)
+
+const tempPositiveFilter = tempLondon.filter(function(value) {
+    return value >= 0
+})
+console.log(tempPositiveFilter)
+
+const tempLondonNegative = tempLondon.filter(value => value <= 0)
+console.log(tempLondonNegative)
 
 
 console.log('----------------------------')
