@@ -67,7 +67,7 @@ body {
     font-size: 1rem;
     font-weight: bold;
     letter-spacing: 0.5px;
-    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    background: linear-gradient(135deg, #eeeef0, #9c642f);
     box-shadow: 0 4px 15px rgb(110, 142, 251, 0.4);
     transition: all 0.3s ease;
     position: relative;
