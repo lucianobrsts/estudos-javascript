@@ -9,31 +9,36 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <div class="calculator">
-        <div class="title">Simple Calculator</div>
-        
-        <div class="imputs-numbers">
-            <input id="num1" class="inputs" name="number1" type="number" />
-            <input id="num2" class="inputs" name="number2" type="number" />
-        </div>
-
-        <div class="operations">
-            <input checked id="radioAdd" type="radio" name="sign-area" class="inputsRadios">
-            <label for="radio1" class="label-radio">+</label>
+    <form>
+        <div class="calculator">
+            <h1 class="title">Simple Calculator</h1>
             
-            <input id="radioMinus" type="radio" name="sign-area" class="inputsRadios">
-            <label for="radio2" class="label-radio">-</label>
-           
-            <input id="radioMultiply" type="radio" name="sign-area" class="inputsRadios">
-            <label for="radio3" class="label-radio">*</label>
+            <div class="inputs-numbers">
+                <input id="num1" class="inputs" name="number1" type="number" placeholder="0" aria-label="Primeiro número"/>
+                <input id="num2" class="inputs" name="number2" type="number" placeholder="0" aria-label="Segundo número"/>
+            </div>
+
+            <fieldset class="operations">
+                <legend class="sr-onlu">Choose a option:</legend>
+                <input checked id="radioAdd" type="radio" name="sign-area" class="inputsRadios">
+                <label for="radioAdd" class="label-radio">+</label>
+                
+                <input id="radioMinus" type="radio" name="sign-area" class="inputsRadios">
+                <label for="radioMinus" class="label-radio">-</label>
             
-            <input id="radioDivision" type="radio" name="sign-area" class="inputsRadios">
-            <label for="radio4" class="label-radio">/</label>
+                <input id="radioMultiply" type="radio" name="sign-area" class="inputsRadios">
+                <label for="radioMultiply" class="label-radio">*</label>
+                
+                <input id="radioDivision" type="radio" name="sign-area" class="inputsRadios">
+                <label for="radioDivision" class="label-radio">/</label>
+            </fieldset>
+
+            <input id="btnCalculate" class="btn-calculator" type="button" value="Calculate" onclick="outcome()">
+
+            <div class="visor" role="status" aria-live="polite">
+                <output id="total" class="visor">0</output>
+            </div>
         </div>
-
-        <input class="btn-calculator" type="button" value="Calculate" onclick="outcome()">
-
-        <output id="total" class="visor"></output>
-    </div>
+    </form>
 </body>
 </html>
