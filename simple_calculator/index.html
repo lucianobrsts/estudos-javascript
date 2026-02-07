@@ -19,7 +19,7 @@
             </div>
 
             <fieldset class="operations">
-                <legend class="sr-onlu">Choose a option:</legend>
+                <legend class="sr-only">Choose a option:</legend>
                 <input checked id="radioAdd" type="radio" name="sign-area" class="inputsRadios">
                 <label for="radioAdd" class="label-radio">+</label>
                 
@@ -33,7 +33,10 @@
                 <label for="radioDivision" class="label-radio">/</label>
             </fieldset>
 
-            <input id="btnCalculate" class="btn-calculator" type="button" value="Calculate" onclick="outcome()">
+            <div class="actions">
+                <input id="btnCalculate" class="btns" type="button" value="Calculate">
+                <input id="btnClear" class="btns" type="button" value="Clear">
+            </div>
 
             <div class="visor" role="status" aria-live="polite">
                 <output id="total" class="visor">0</output>

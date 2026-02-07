@@ -59,8 +59,8 @@ body {
     font-weight: bold;
 }
 
-.btn-calculator {
-    padding: 12px 70px;
+.btns {
+    padding: 12px ;
     margin-bottom: 20px;
     min-width: 150px;
     border-radius: 5px;
@@ -75,13 +75,13 @@ body {
     overflow: hidden;
 }
 
-.btn-calculator:hover {
+.btns:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(110, 142, 251, 0.6);
     filter: brightness(1.1);
 }
 
-.btn-calculator:active {
+.btns:active {
     transform: translateY(1px);
     box-shadow: 0 2px 10px rgba(110, 142, 251, 0.4);
 }
