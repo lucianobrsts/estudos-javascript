@@ -374,6 +374,28 @@ console.log(tempLondonNegative)
 
 
 console.log('----------------------------')
+console.log('Functions')
+
+movies2()
+// Hoisting
+// Function declaration
+function movies2() {
+    console.log('The Matrix')
+}
+
+
+car()
+// Function Expression
+const car = function() {
+    console.log('Tesla')
+}
+
+
+const truck = car
+truck()
+
+
+console.log('----------------------------')
 console.log('Next class')
 
 
