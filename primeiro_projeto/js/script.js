@@ -410,6 +410,12 @@ console.log('testando o github')
 
 console.log('The price is: ' + priceSum(10, 50, 30, 40, 120))
 
+function carLoan(loan, rate = 2.9, years = 5) {
+    return (loan * rate /100 * years) + loan
+}
+
+console.log(carLoan(20000))
+
 console.log('----------------------------')
 console.log('Next class')
 
