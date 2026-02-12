@@ -406,6 +406,8 @@ function priceSum() {
     return total
 }
 
+console.log('testando o github')
+
 console.log('The price is: ' + priceSum(10, 50, 30, 40, 120))
 
 console.log('----------------------------')
