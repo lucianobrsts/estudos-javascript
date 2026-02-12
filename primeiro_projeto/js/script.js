@@ -384,16 +384,29 @@ function movies2() {
 }
 
 
-car()
+
 // Function Expression
 const car = function() {
     console.log('Tesla')
 }
+car()
 
 
 const truck = car
 truck()
 
+
+console.log('----------------------------')
+console.log('Arguments')
+
+function priceSum() {
+    let total = 0
+    for(let value of arguments)
+        total += value
+    return total
+}
+
+console.log('The price is: ' + priceSum(10, 50, 30, 40, 120))
 
 console.log('----------------------------')
 console.log('Next class')
