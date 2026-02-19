@@ -1,0 +1,91 @@
+:root {
+    --bg-app: #333333;
+    --bg-card: #c0c8cb;
+    --primary-text: #333333;
+    --display-bg: #000000;
+    --display-text: #ffffff;
+    --font-main: 'Trebuchet MS', sans-serif;
+    --shadown-soft: 0 4px 15px rgba(110, 142, 251, 0.4);
+    --border-strong: 4px solid #000000;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    min-height: 420px;
+    padding: 2rem 1rem;
+    background: var(--bg-card);
+    color: var(--primary-bg);
+    border-bottom: var(--border-strong);
+    border-right: var(--border-strong);
+    border-radius: 15px;  
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.inputs-numbers {
+    width:80%;
+    margin-bottom: 1rem;
+}
+
+.inputs {
+    width: 100%;
+    height: 45px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    font-family: var(--font-main);
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: 1px solid #ccc;
+}
+
+.operations {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.btns {
+    padding: 12px 24px;
+    margin: 5px;
+    min-width: 140px;
+    border-radius: 8px;
+    font-family: var(--font-main);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(135deg, #636262, #000000);
+    box-shadow: var(--shadown-soft);
+    border: none;
+    transition: all 0.3s ease;
+    color: var(--display-text);
+}
+
+.btns:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}
+
+.visor {
+    width: 100%;
+    min-height: 80px;
+    margin-top: 20px;
+    background-color: var(--display-bg);
+    color: var(--display-text);
+    font-size: 2.5rem;
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+}
