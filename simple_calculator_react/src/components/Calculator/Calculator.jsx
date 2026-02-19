@@ -53,7 +53,7 @@ const Calculator = () => {
             </fieldset>
 
             <div className={styles.actions}>
-                <button className={styles.btns} onClick={calculate}>Calculate</button>
+                <button type="button" className={styles.btns} onClick={calculate}>Calculate</button>
                 <button className={styles.btns} onClick={clear}>Clear</button>
             </div>
 

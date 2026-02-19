@@ -27,7 +27,7 @@ export const useCalculator = () => {
 
         setResult(
             typeof total === 'number'
-                ? total.toLocaleString('pt=BR', { maximumFractionDigits: 4 })
+                ? total.toLocaleString('pt-BR', { maximumFractionDigits: 4 })
                 : total
         );
     };
